@@ -1,4 +1,5 @@
 # play_AI_music.py
+from asyncio import wait
 from scamp import Session
 
 s = Session(tempo=60)
@@ -33,9 +34,10 @@ for pitch, duration in melody:
         print(f"Playing {pitch} for {duration} beats")
         volume = 0.7
         if pitch == 0:
-            volume = 0.0
+            wait(duration)
             print("Resting")
-        clar.play_note(pitch, volume, duration)
+        else:
+            clar.play_note(pitch, volume, duration)
     except ValueError as e:
         print("Skipping invalid note:", e)
 
