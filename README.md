@@ -14,4 +14,16 @@ then test that it worked by entering these two lines (without the quotes):
 
 You should hear piano music on your PC or Mac to confirm scamp works
 
-Status: I can get the music sample playing on my Mac, following the instructions above.  But if I try to "import scamp", it's failing even though I installed scamp via pip3.  Still debugging this.
+Now working in basic form:
+- Run the Python app importer.py to set up the right modules on your PC/Mac (only have to do this once)
+- Paste your melody into the file "melody.txt" in the form "pitch, duration" (e.g. "C4, 0.25")
+- Run the Python app play_AI_music.py to play whatever is in melody.txt
+- You should hear music!
+
+------------
+Here's how I'm asking ChatGPT-4 to generate the notes for me.  This is a transcript of a chat on ChatGPT...
+
+... [transcript coming soon]
+
+
+
