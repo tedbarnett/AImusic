@@ -6,7 +6,8 @@ Trying out scamp (https://github.com/MarcTheSpark/scamp)
 From https://github.com/MarcTheSpark/scamp
 and from http://scamp.marcevanstein.com/
 
-On a Mac or PC, open the terminal and enter (without the quotes):
+On a Mac or PC, download ("clone") this repository. Navigate to that folder and...
+- open the terminal and enter (without the quotes):
 - 'pip3 install --user scamp'
 then test that it worked by entering these two lines (without the quotes):
 - 'python3'
